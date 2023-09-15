@@ -1,0 +1,49 @@
+body{
+    background-image: url(Estuda.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-clip:content-box;
+    background-attachment:scroll;
+}
+
+.corpo{
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 170px;
+    color: black;
+    font-size: 45px;
+}
+
+
+@media only screen and (max-device-width: 600px) {
+
+    .titulo {margin-left: 55%; font-size: 35px; white-space: nowrap;}
+
+    .notas {margin-top: 1em; margin-left: 100%; font-size: 14px; white-space: nowrap;}
+
+    #botao {margin-left: 90%; font-size: 18px; white-space: nowrap;}
+
+    body{
+        background-position: center;
+     
+     }
+
+}
+
+@media only screen and (max-device-width: 900px) {
+
+    .titulo {margin-bottom: 0.1em; margin-left: 13%; font-size: 30px; white-space: nowrap;}
+
+    .notas {margin-top: 2.3em; margin-bottom: 0.1; margin-left: 50%; font-size: 14px; white-space: nowrap;}
+
+    #botao {margin-left: 47%; font-size: 18px; white-space: nowrap;}
+    
+    body{
+       
+       background-size: cover;
+       background-position:20%;
+       background-repeat: repeat-y;
+    }
+
+
+}

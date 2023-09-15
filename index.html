@@ -1,0 +1,46 @@
+<meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Minutos/Horas </title>
+</head>
+<body class="corpo">
+<script>
+
+	function pulaLinha() {
+
+		document.write("<br><br>");
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+
+	function minutos() {
+
+		return minutos;
+	}
+	
+	var tempoInformado = parseInt(prompt("Digite o tempo gasto em minutos:"));
+
+	var minutos = (tempoInformado/60);
+
+	mostra("O tempo a ser digitado na Sense é: " +  minutos);
+
+	if (minutos < 1) {
+
+		mostra("Coloque o tempo em formato de minutos!");
+	} else{
+
+		mostra("Coloque o tempo em formato de horas!");
+	}
+
+
+</script>
+
+</body>
+</html>
